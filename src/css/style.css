@@ -1,12 +1,26 @@
-nav{
+header{
     background-color: #53A63C;
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0px;
+    color: #fff;
+    padding: 10px 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-li{
+nav{
+    background-color: #53A63C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav li{
     list-style-type: none;
     display: inline-block;
     padding: 15px;
@@ -20,17 +34,63 @@ li{
 }
 
 #logo{
-    color: #000;
-    font-family: DESIGNER;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-#img_logo{
+    display: flex;
     width: 54px;
     height: 66px;
     flex-shrink: 0;
+}
+
+
+footer hr { /* Isso aqui é a linha que divide o footer do body */
+    width: 1361.499px;
+    transform: rotate(0.084deg);
+    flex-shrink: 0;
+    border: none;
+    height: 3px;
+    background-color: #D4D4D4;
+    margin: 20px auto;
+    
+}
+
+footer ul {
+    color: #53A63C;
+    font-family: Gotham;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    line-height: 40.705px
+}
+
+footer li {
+    color: #000;
+    font-family: Gotham;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.705px;
+}
+
+.siga, .sobre{
+    display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
+    margin: 20px 30px ; /* Adiciona espaçamento entre as seções */
+    vertical-align: top; /* Alinha os elementos ao topo */
+}
+
+.logo_footer {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    display: inline-block;
+    padding-right: 400px;
+}
+
+.footer-container{
+    max-width: 1361.499px; /* Largura máxima do rodapé */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Alinha os elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha se não couberem na largura */
+    justify-content: center; /* Alinha os elementos horizontalmente no centro */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
 }
