@@ -1,96 +1,89 @@
-header{
-    background-color: #53A63C;
-    color: #fff;
-    padding: 10px 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-nav{
-    background-color: #53A63C;
+.retangulo{
+    width: 358px;
+    height: 241px;
+    border-radius: 15px;
+    background-color: #d9d9d9;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-nav li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px;
-    margin: 0 0 0 15px;
-    color: #FFF;
-    font-family: Gotham;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 300;
-    line-height: normal;
-}
-
-#logo{
-    display: flex;
-    width: 54px;
-    height: 66px;
-    flex-shrink: 0;
-}
-
-
-footer hr { /* Isso aqui é a linha que divide o footer do body */
-    width: 1361.499px;
-    transform: rotate(0.084deg);
-    flex-shrink: 0;
-    border: none;
-    height: 3px;
-    background-color: #D4D4D4;
-    margin: 20px auto;
-    
-}
-
-footer ul {
-    color: #53A63C;
-    font-family: Gotham;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    line-height: 40.705px
-}
-
-footer li {
-    color: #000;
-    font-family: Gotham;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30.705px;
-}
-
-.siga, .sobre{
-    display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
-    margin: 20px 30px ; /* Adiciona espaçamento entre as seções */
-    vertical-align: top; /* Alinha os elementos ao topo */
-}
-
-.logo_footer {
-    width: auto;
+.retangulo img {
+    max-width: 100%;
     height: auto;
     flex-shrink: 0;
-    display: inline-block;
-    padding-right: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 
-.footer-container{
-    max-width: 1361.499px; /* Largura máxima do rodapé */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: flex; /* Alinha os elementos horizontalmente */
-    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha se não couberem na largura */
-    justify-content: center; /* Alinha os elementos horizontalmente no centro */
-    align-items: center; /* Alinha os elementos verticalmente ao centro */
+.retangulo h2{
+    color: #000;
+    font-family: Gotham Black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+#categoria_1{
+    display: flex;
+    margin: 10px;
+    position: relative;
+}
+
+#categoria_1 h1{
+    color: #000;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 0px 60px;
+    font-family: Gotham;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin:0;
+    z-index: 1;
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo de toda a página, ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 1200px; /* Largura máxima para o conteúdo central */
+    margin: 0 auto; /* Centraliza horizontalmente o conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalm */
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Altera o menu de horizontal para vertical */
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav li {
+        padding: 10px 0;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
 }
