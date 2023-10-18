@@ -50,12 +50,11 @@
     z-index: 1;
 }
 
-
-    #logo {
-        width: 100%;
-        text-align: center;
-        margin: 10px 0;
-    }
+#logo {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
 
 
 .container {
@@ -240,25 +239,22 @@
     color: #fff;
     text-align: center;
     line-height: 40px;
-  }
+}
 
-  .prev {
+.prev {
     left: 0;
-  }
+}
 
-  .next {
+.next {
     right: 0;
-  }
-
-  /*body{
-    font-family: Arial, Helvetica, sans-serif
-  } */
+}
 
 .content {
     display: flex;
     justify-content: center;
     margin-bottom: 500px;
     margin-top: 50px;
+    font-family: Gotham;
 }
 
 .contato {
@@ -273,22 +269,26 @@
     height: 40px;
     flex-shrink: 0;
     border-radius: 5px;
+    border-style: none;
     background: #D9D9D9;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
 }
 
 .field {
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid black; /* Adicione 'solid' e a cor da borda aqui */
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  width: 439px;
-  height: 200px;
-  flex-shrink: 0;
-  background: #D9D9D9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black; /* Adicione 'solid' e a cor da borda aqui */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 439px;
+    height: 200px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    border-style: none;font-size: 20px;
+
 }
 
 .textarea {
@@ -298,13 +298,24 @@
 }
 
 .buttom {
-  text-align:center;
-  width: 100px;
-  height: 40px;
-  flex-shrink: 0;
-  border-radius: 19px;
-  background: #017DC7;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align:center;
+    width: 335px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: #017DC7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    font-size: 20px;
+    font-family: Gotham;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.buttom:hover{
+    background-color: #004c79;
 }
 
 .formulario {
