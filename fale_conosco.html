@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!---->
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
@@ -28,7 +29,24 @@
 
         </nav>
     </header>
-    <h1>Aloooou dona de casa manda teu oi aqui!</h1>
+
+    <section class="content"> <!--Gab-->
+        <div class="contato">
+            <center>
+                <h3 class="formulario">Fale conosco!</h3> </br>
+            </center>
+            <form class="form" method="POST" action="./email.php">
+                <input class="form" type="text" name="name" placeholder="Nome"> </br>
+                <input class="form" type="email" name="email" placeholder="E-mail"> </br>
+                <textarea class="field" name="message" placeholder="Informe aqui o motivo do seu contato"></textarea> </br>
+                <center>
+                    <input class="buttom" type="submit" value="Enviar">
+                </center>
+            </form>
+        </div>
+    </section>
+
+
 </body>
 <footer>
     <hr>
