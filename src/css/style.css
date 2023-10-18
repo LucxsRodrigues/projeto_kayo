@@ -90,6 +90,7 @@
 }
 
 .UNretangulo1 {
+    font-family: Gotham Black;
     width: 230px;
     /*Define a largura do retângulo como 230 pixels.*/
     height: 280px;
@@ -114,9 +115,11 @@
     /* Definem as margens do elemento para cima*/
     text-align: left;
     /* Centraliza o conteúdo dentro do bloco para a esquerda */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 
 .UNretangulo2 {
+    font-family: Gotham Black;
     width: 230px;
     /*Define a largura do retângulo como 230 pixels.*/
     height: 280px;
@@ -141,6 +144,7 @@
     /* Definem as margens do elemento para cima*/
     text-align: left;
     /* Centraliza o conteúdo dentro do bloco para a esquerda */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 
 .UNretangulo_img {
