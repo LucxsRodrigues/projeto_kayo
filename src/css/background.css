@@ -1,6 +1,0 @@
-.content {
-    background-image: url('src/img/logo linha.png');
-    background-size: cover; /* Isso ajuda a ajustar a imagem para cobrir todo o elemento */
-    background-repeat: no-repeat; /* Isso evita que a imagem de fundo se repita */
-    background-attachment: fixed; /* Isso fixa a imagem de fundo na posição */
-}

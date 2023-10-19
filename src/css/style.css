@@ -1,3 +1,7 @@
+main{
+    padding-left: 13.2%;
+}
+
 .retangulo{
     width: 358px;
     height: 241px;
@@ -14,7 +18,6 @@
 .retangulo img {
     max-width: 100%;
     height: auto;
-    flex-shrink: 0;
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
@@ -69,28 +72,28 @@
 }
 
 .bottom-text {
-    margin: 0;
-    /*Remove a margem ao redor do elemento.*/
     padding: 10px;
     /*Adiciona preenchimento de 10 pixels ao redor do elemento.*/
     font-size: 18px;
     /*Adiciona preenchimento de 10 pixels ao redor do elemento.*/
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .video {
-    flex: 1;
-    /*Faz com que o elemento expanda para preencher o espaço disponível horizontalmente.*/
     padding: 10px;
     /*Adiciona preenchimento de 10 pixels ao redor do elemento*/
-    margin-right: 5px;
-    /*Define uma margem de 5 pixels à direita do elemento.*/
-    margin-left: 90px;
+    margin-left: %;
     /*Define uma margem de 90 pixels à esquerda do elemento.*/
+}
+
+.ultimasNot{
+    margin-left:5%;
 }
 
 .UNretangulo1 {
     font-family: Gotham Black;
-    width: 230px;
+    width: 300px;
     /*Define a largura do retângulo como 230 pixels.*/
     height: 280px;
     /* Define a altura do retângulo como 280 pixels.*/
@@ -98,106 +101,57 @@
     /*Adiciona cantos arredondados com raio de 15 pixels*/
     background-color: #d9d9d9;
     /*Define a cor de fundo*/
-    display: flex;
-    /*Transforma o elemento em um container flexível.*/
-    flex-direction: column;
-    /*Define a direção da pilha flexível como coluna.*/
-    align-items: center;
-    /*Centraliza verticalmente o conteúdo.*/
-    justify-content: center;
-    /* Centraliza horizontalmente o conteúdo.*/
-    margin-left: 60px;
-    /* Definem as margens do elemento para a esquerda*/
-    margin-right: 10px;
-    /* Definem as margens do elemento para a  direita*/
-    margin-top: 3rem;
-    /* Definem as margens do elemento para cima*/
-    text-align: left;
-    /* Centraliza o conteúdo dentro do bloco para a esquerda */
+    display: inline-block;
+    /*coloca os blocos alinhados em linhas */
+    margin-right: 20px; 
+    /* Espaço entre os elementos */
+    vertical-align: top;
+    /* alinha os itens verticalmente */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 
-.UNretangulo2 {
-    font-family: Gotham Black;
-    width: 230px;
-    /*Define a largura do retângulo como 230 pixels.*/
-    height: 280px;
-    /* Define a altura do retângulo como 280 pixels.*/
-    border-radius: 15px;
-    /*Adiciona cantos arredondados com raio de 15 pixels*/
-    background-color: #d9d9d9;
-    /*Define a cor de fundo*/
-    display: flex;
-    /*Transforma o elemento em um container flexível.*/
-    flex-direction: column;
-    /*Define a direção da pilha flexível como coluna.*/
-    align-items: center;
-    /*Centraliza verticalmente o conteúdo.*/
-    justify-content: center;
-    /* Centraliza horizontalmente o conteúdo.*/
-    margin-left: 80px;
-    /* Definem as margens do elemento para a esquerda*/
-    margin-right: 190px;
-    /* Definem as margens do elemento para a direita*/
-    margin-top: 7.3rem;
-    /* Definem as margens do elemento para cima*/
-    text-align: left;
-    /* Centraliza o conteúdo dentro do bloco para a esquerda */
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
-}
-
-.UNretangulo_img {
-    max-width: 98%;
+.UNretangulo img {
+    max-width: 60%;
     /* Define a largura máxima da imagem como 98% do contêiner pai.*/
     height: auto;
     /*Mantém a proporção da imagem.*/
-    flex-shrink: 0;
-    /*Impede que a imagem encolha dentro do contêiner.*/
     border-radius: 15px;
     /*Adiciona cantos arredondados com raio de 15 pixels.*/
+    margin-left: 20%;
 }
 
-.UNretangulo_h2 {
+.UNretangulo h2 {
     color: #000;
     /* Essa propriedade define a cor do texto.*/
     font-family: Gotham Black;
     /*Essa propriedade define a família da fonte a ser usada para o texto*/
-    font-size: 20px;
+    font-size: 24px;
     /*Essa propriedade define o tamanho da fonte em pixels*/
     font-style: normal;
     /*Esta propriedade define o estilo da fonte*/
-    font-weight: 500;
-    /*Esta propriedade define a espessura da fonte*/
     line-height: normal;
     /*Esta propriedade define a altura da linha, que é a distância vertical entre as linhas de texto.*/
+    padding-left: 5%;
 }
 
 .poiuy1 {
-    margin-left: -10px; /* Ajuste o valor conforme necessário */
-    padding-left: 110px;
     color: #000;
     font-family: Gotham;
     font-size: 34px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-    margin: 0;
+    margin: 0 0 0 0;
 }
 
-
-
 .poiuy2 {
-    padding-left: 170px;
-    /*controlar o espaço entre os elementos*/color: #000;
     color: #000;
-    padding: 0px 60px;
     font-family: Gotham;
     font-size: 34px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-    margin:0;
-    z-index: 1;
+    margin:0 0 0;
 }
 
 .section{ /*Gab */
