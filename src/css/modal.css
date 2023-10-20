@@ -1,0 +1,232 @@
+/* Estilo para o botão "Ver Notícia" */
+.meu-botao {
+    background-color: #d9d9d9; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    padding: 0px 0px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+    border-radius: 0px; /* Adiciona cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao img {
+    width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 230px;
+    margin-right: 5px; /* Espaço entre a imagem e o texto */
+  }
+  .meu-botao:hover {
+    transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+  }
+  .description-container {
+    flex: 1; /* Ocupa uma parte menor do espaço vertical */
+    display: flex;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left; /* Alinhe o texto à esquerda */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Estilo para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    padding: 7px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+.modal img{
+
+    width: 650px;
+    height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fechar {
+    color: #ff0095;
+    float: right;
+    font-size: 44px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Estilo quando o mouse passa por cima do botão */
+.openLinkBtn { /*ler mais*/
+    display: inline-block;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px; /* Ajuste a margem conforme necessário */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.openLinkBtn:hover {
+    background-color: #0056b3;
+}
+  /* 358 241 */
+
+
+
+
+
+
+
+
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilo para o botão "Ver Notícia" */
+.meu-botao-2 {
+    background-color: #d9d9d9; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    padding: 0px 0px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+    border-radius: 0px; /* Adiciona cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-2 img {
+    width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 230px;
+    margin-right: 5px; /* Espaço entre a imagem e o texto */
+  }
+  .meu-botao-2:hover {
+    transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+  }
+  .description-container-2 {
+    flex: 1; /* Ocupa uma parte menor do espaço vertical */
+    display: flex;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left; /* Alinhe o texto à esquerda */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Estilo para o modal */
+.modal-2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content-2 {
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    padding: 7px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+.modal-2 img{
+
+    width: 650px;
+    height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fechar-2 {
+    color: #ff0095;
+    float: right;
+    font-size: 44px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Estilo quando o mouse passa por cima do botão */
+.openLinkBtn-2 { /*ler mais*/
+    display: inline-block;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px; /* Ajuste a margem conforme necessário */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.openLinkBtn-2:hover {
+    background-color: #0056b3;
+}
+  /* 358 241 */

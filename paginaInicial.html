@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/navBar.css">
     <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/modal.css">
 </head>
 
 <body>
@@ -43,7 +44,6 @@
                 <a class="carrossel-button prev" onclick="plusSlides(-1)">&#8249;</a>
                 <a class="carrossel-button next" onclick="plusSlides(1)">&#8250;</a>
             </div>
-            <script src="src/js/script.js"></script>
         </section>
 
     <!-- vídeo + 2 últimas notícias (Rangel)-->
@@ -55,34 +55,66 @@
                 <iframe width="470" height="270" src="https://www.youtube.com/embed/yEM8nqVuF80?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <!--Últimas Noticia 1-->
+            <!--Titulo Últimas Noticia-->
             <section class="ultimasNot">
                 <h2 class="poiuy2">Últimas notícias:</h2><br>
-                <div class="UNretangulo1">
-                    <div class="UNretangulo">
+
+                <!--Últimas Noticia 1-->
+                <button id="ver-noticia-btn" class="meu-botao">
+                    <div class="image-container">
                         <h2>Eclipse anelar em Caruaru</h2>
-                        <img src="https://s2-oglobo.glbimg.com/acJQlqS2syzKKl5Oj19OrRVNbmk=/0x0:407x286/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/9/S/oy3DohTcuHBsnBXq019A/f1a8521c-4707-4767-9e0e-fd160c0ec9bc.jpg" alt="Notícia 1" class="UNretangulo_img">
-                        <p class="bottom-text">Resumo da noticia.</p>
+                        <img src="https://s2-oglobo.glbimg.com/acJQlqS2syzKKl5Oj19OrRVNbmk=/0x0:407x286/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/9/S/oy3DohTcuHBsnBXq019A/f1a8521c-4707-4767-9e0e-fd160c0ec9bc.jpg" alt="Notícia 1" class="modal_img">
+                    </div>
+                    <div class="description-container">
+                        <span>Descrição da imagem</span>
+                    </div>
+                </button>
+
+
+                <!--modal UN1-->
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="fechar" id="fechar-modal">&times;</span>
+                        <p><h1>TITULO DA NOTICIA</h1></p>
+                        <p><h5 style="display: inline;">16/10/2023  </h5><h5 style="display: inline;">Econimia  </h5><h5 style="display: inline;">Por:</h5> <h3 style="display: inline;">Reporter Litlle Ranger</h3></p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Super_Notícia_logo.png" alt="Notícia 1" class="modal_img">
+                        <p><h5>pequena descrição sobre a notícia.</h5></p>
+                        <a href=".html" target="_blank" class="openLinkBtn">Leia mais</a>
                     </div>
                 </div>
-            
 
             <!--Últimas Noticia 2-->
-                <div class="UNretangulo1">
-                    <div class="UNretangulo">
-                        <h2>teste</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Super_Notícia_logo.png" alt="Notícia 2" class="UNretangulo_img">
-                        <p class="bottom-text">super noticiaaaaa</p>
-                    </div>
+            <button id="ver-noticia-btn-2" class="meu-botao-2">
+                <div class="image-container-2">
+                    <h2>teste</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Super_Notícia_logo.png" alt="Notícia 2">
                 </div>
-            </section>
+                <div class="description-container-2">
+                    <span>Descrição da imagem</span>
+                </div>
+            </button>
+
+            <!-- Conteúdo do segundo modal -->
+    <div id="modal-2" class="modal-2">
+        <div class="modal-content-2">
+
+            <span class="fechar-2" id="fechar-modal-2">&times;</span>
+            <p><h1>TITULO DA NOTICIA</h1></p>
+            <p><h5 style="display: inline;">16/10/2023  </h5><h5 style="display: inline;">Econimia  </h5><h5 style="display: inline;">Por:</h5> <h3 style="display: inline;">Reporter Litlle Ranger</h3></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Super_Notícia_logo.png" alt="Notícia 1" class="modal_img">
+            <p><h5>pequena descrição sobre a notícia.</h5></p>
+            <a href=".html" target="_blank" class="openLinkBtn">Leia mais</a>
+        </div>
+    </div>
+
         </div>
     </section>
 
 
+
+<!--Tô editando essa parte do section aqui(Ass:Lucas)-->
     <main><br><br><br>
         <section id="categoria_1">
-            <!--Tô editando essa parte do section aqui(Ass:Lucas)-->
             <h1>Economia</h1>
             <div class="retangulo">
                 <img src="src/img/image_not_1.png" alt="foto das vacas">
@@ -155,5 +187,6 @@
         </div>
     </div>
 </footer>
-
+<script src="src/js/script.js"></script>
+<script src="src/js/modal.js"></script>
 </html>
