@@ -1,4 +1,4 @@
-/* Estilo para o botão "Ver Notícia" */
+/* Estilo para o 1 botão */
 .meu-botao {
     background-color: #d9d9d9; /* Cor de fundo do botão */
     color: #000000; /* Cor do texto do botão */
@@ -33,7 +33,7 @@
   
   
   
-  /* Estilo para o modal */
+  /* Estilo para o 1 modal */
 .modal {
     display: none;
     position: fixed;
@@ -62,18 +62,6 @@
     width: 650px;
     height: 330px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .fechar {
     color: #ff0095;
     float: right;
@@ -81,7 +69,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-/* Estilo quando o mouse passa por cima do botão */
 .openLinkBtn { /*ler mais*/
     display: inline-block;
     background-color: #0074d9;
@@ -99,36 +86,15 @@
 .openLinkBtn:hover {
     background-color: #0056b3;
 }
-  /* 358 241 */
+
+
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
 
 
 
 
-
-
-
-
-
-
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Estilo para o botão "Ver Notícia" */
+  /* Estilo para o 2 botão*/
 .meu-botao-2 {
     background-color: #d9d9d9; /* Cor de fundo do botão */
     color: #000000; /* Cor do texto do botão */
@@ -163,7 +129,7 @@
   
   
   
-  /* Estilo para o modal */
+  /* Estilo para o 2 modal */
 .modal-2 {
     display: none;
     position: fixed;
@@ -192,18 +158,6 @@
     width: 650px;
     height: 330px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .fechar-2 {
     color: #ff0095;
     float: right;
@@ -211,7 +165,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-/* Estilo quando o mouse passa por cima do botão */
 .openLinkBtn-2 { /*ler mais*/
     display: inline-block;
     background-color: #0074d9;
@@ -229,4 +182,1011 @@
 .openLinkBtn-2:hover {
     background-color: #0056b3;
 }
-  /* 358 241 */
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 3 modal */
+.modal-3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-3 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-3 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-3 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-3 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-3:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 4 modal */
+.modal-4 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-4 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-4 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-4 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-4 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-4:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 4 modal */
+.modal-5 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-5 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-5 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-5 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-5 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-5:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 6 modal */
+.modal-6 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-6 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-6 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-6 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-6 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-6:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 7 modal */
+.modal-7 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-7 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-7 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-7 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-7 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-7:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 8 modal */
+.modal-8 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-8 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-8 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-8 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-8 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-8:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 9 modal */
+.modal-9 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-9 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-9 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-9 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-9 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-9:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 10 modal */
+.modal-10 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-10 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-10 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-10 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-10 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-10:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 11 modal */
+.modal-11 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-11 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-11 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-11 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-11 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-11:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 12 modal */
+.modal-12 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-12 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-12 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-12 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-12 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-12:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 13 modal */
+.modal-13 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-13 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-13 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-13 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-13 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-13:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 14 modal */
+.modal-14 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-14 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-14 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-14 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-14 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-14:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 15 modal */
+.modal-15 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-15 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-15 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-15 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-15 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-15:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 16 modal */
+.modal-16 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-16 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-16 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-16 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-16 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-16:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 17 modal */
+.modal-17 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-17 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-17 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-17 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-17 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-17:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 18 modal */
+.modal-18 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-18 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-18 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-18 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-18 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-18:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 19 modal */
+.modal-19 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-19 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-19 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-19 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-19 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-19:hover {
+  background-color: #0056b3;
+}
+
+/*77777777777777777777777777777777777777777777777777777777777777777777777*/
+
+/* Estilo para o 20 modal */
+.modal-20 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content-20 {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.modal-20 img{
+
+  width: 650px;
+  height: 330px;
+}
+.fechar-20 {
+  color: #ff0095;
+  float: right;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.openLinkBtn-20 { /*ler mais*/
+  display: inline-block;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.openLinkBtn-20:hover {
+  background-color: #0056b3;
+}
