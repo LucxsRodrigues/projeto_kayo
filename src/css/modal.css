@@ -24,15 +24,7 @@
     font-size: 16px;
     margin-top: 10px;
     text-align: left; /* Alinhe o texto à esquerda */
-  }
-  
-  
-  
-  
-  
-  
-  
-  
+  } 
   /* Estilo para o 1 modal */
 .modal {
     display: none;
@@ -121,14 +113,6 @@
     margin-top: 10px;
     text-align: left; /* Alinhe o texto à esquerda */
   }
-  
-  
-  
-  
-  
-  
-  
-  
   /* Estilo para o 2 modal */
 .modal-2 {
     display: none;
@@ -184,7 +168,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
+ /* Estilo para o 2 botão*/
+ .meu-botao-3 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-3 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-3:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-3 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
 /* Estilo para o 3 modal */
 .modal-3 {
   display: none;
@@ -238,10 +248,34 @@
 .openLinkBtn-3:hover {
   background-color: #0056b3;
 }
-
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 4 modal */
+.meu-botao-4 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-4 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-4:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-4 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-4 {
   display: none;
   position: fixed;
@@ -296,8 +330,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 4 modal */
+.meu-botao-5 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-5 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-5:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-5 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-5 {
   display: none;
   position: fixed;
@@ -352,8 +411,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 6 modal */
+.meu-botao-6 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-6 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-6:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-6 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-6 {
   display: none;
   position: fixed;
@@ -408,8 +492,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 7 modal */
+.meu-botao-7 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-7 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-7:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-7 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-7 {
   display: none;
   position: fixed;
@@ -464,8 +573,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 8 modal */
+.meu-botao-8 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-8 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-8:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-8 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-8 {
   display: none;
   position: fixed;
@@ -520,8 +654,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 9 modal */
+.meu-botao-9 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-9 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-9:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-9 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-9 {
   display: none;
   position: fixed;
@@ -576,8 +735,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 10 modal */
+.meu-botao-10 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-10 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-10:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-10 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-10 {
   display: none;
   position: fixed;
@@ -632,8 +816,33 @@
 }
 
 /*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 11 modal */
+.meu-botao-11 {
+  background-color: #d9d9d9; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 0px 0px; /* Preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
+  border-radius: 0px; /* Adiciona cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+.meu-botao-11 img {
+  width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 230px;
+  margin-right: 5px; /* Espaço entre a imagem e o texto */
+}
+.meu-botao-11:hover {
+  transform: scale(1.1); /* Cor de fundo ao passar o mouse */
+}
+.description-container-11 {
+  flex: 1; /* Ocupa uma parte menor do espaço vertical */
+  display: flex;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left; /* Alinhe o texto à esquerda */
+}
+/* Estilo para o 2 modal */
 .modal-11 {
   display: none;
   position: fixed;
@@ -684,509 +893,5 @@
   transition: transform 0.3s ease;
 }
 .openLinkBtn-11:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 12 modal */
-.modal-12 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-12 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-12 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-12 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-12 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-12:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 13 modal */
-.modal-13 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-13 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-13 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-13 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-13 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-13:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 14 modal */
-.modal-14 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-14 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-14 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-14 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-14 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-14:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 15 modal */
-.modal-15 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-15 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-15 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-15 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-15 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-15:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 16 modal */
-.modal-16 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-16 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-16 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-16 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-16 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-16:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 17 modal */
-.modal-17 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-17 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-17 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-17 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-17 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-17:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 18 modal */
-.modal-18 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-18 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-18 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-18 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-18 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-18:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 19 modal */
-.modal-19 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-19 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-19 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-19 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-19 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-19:hover {
-  background-color: #0056b3;
-}
-
-/*77777777777777777777777777777777777777777777777777777777777777777777777*/
-
-/* Estilo para o 20 modal */
-.modal-20 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content-20 {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  padding: 7px;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-}
-.modal-20 img{
-
-  width: 650px;
-  height: 330px;
-}
-.fechar-20 {
-  color: #ff0095;
-  float: right;
-  font-size: 44px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.openLinkBtn-20 { /*ler mais*/
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px; /* Ajuste a margem conforme necessário */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.openLinkBtn-20:hover {
   background-color: #0056b3;
 }
