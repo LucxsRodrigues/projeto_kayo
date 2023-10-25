@@ -18,3 +18,7 @@
 img {
     max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
 }
+
+h1{
+    font-family: BebasNeue;
+}
