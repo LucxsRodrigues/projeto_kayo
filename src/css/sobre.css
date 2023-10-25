@@ -1,0 +1,20 @@
+.container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adicione outros estilos conforme necessário */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1; /* Ocupa todo o espaço disponível no container */
+    padding: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+}
