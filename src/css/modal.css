@@ -1,29 +1,34 @@
 /* Estilo para o 1 botão */
 .meu-botao {
-    background-color: #d9d9d9; /* Cor de fundo do botão */
-    color: #000000; /* Cor do texto do botão */
-    padding: 0px 0px; /* Preenchimento interno do botão */
-    border: none; /* Remove a borda do botão */
-    cursor: pointer; /* Transforma o cursor em um ponteiro ao passar o mouse */
-    border-radius: 0px; /* Adiciona cantos arredondados */
-    font-size: 16px; /* Tamanho da fonte */
+  width: 358px;
+  height: 241px;
+  border-radius: 15px;
+  background-color: #cfcfcf;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 }
 .meu-botao img {
-    width: 550px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 230px;
-    margin-right: 5px; /* Espaço entre a imagem e o texto */
+  max-width: 100%;
+  width: 282px;
+  height: 139px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
   }
-  .meu-botao:hover {
+.meu-botao:hover {
     transform: scale(1.1); /* Cor de fundo ao passar o mouse */
   }
-  .description-container {
-    flex: 1; /* Ocupa uma parte menor do espaço vertical */
-    display: flex;
-    background-color: transparent;
-    color: #000000;
-    font-size: 16px;
-    margin-top: 10px;
-    text-align: left; /* Alinhe o texto à esquerda */
+.description-container {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+    line-height: normal;
+    margin-top: 5%;
   } 
   /* Estilo para o 1 modal */
 .modal {
@@ -381,7 +386,6 @@
   position: relative;
 }
 .modal-5 img{
-
   width: 650px;
   height: 330px;
 }
