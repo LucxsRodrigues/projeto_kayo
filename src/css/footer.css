@@ -28,18 +28,26 @@ footer li {
     line-height: 30.705px;
 }
 
-.siga, .sobre{
+.siga{
+    display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
+    margin: 0 20px 30px ; /* Adiciona espaçamento entre as seções */
+    vertical-align: top; /* Alinha os elementos ao topo */
+    box-sizing: border-box;
+}
+
+.sobre{
     display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
     margin: 20px 30px ; /* Adiciona espaçamento entre as seções */
     vertical-align: top; /* Alinha os elementos ao topo */
+    box-sizing: border-box;
 }
 
 .logo_footer {
     width: auto;
     height: auto;
-    flex-shrink: 0;
     display: inline-block;
     padding-right: 400px;
+    box-sizing: border-box;
 }
 
 .footer-container{
@@ -49,4 +57,11 @@ footer li {
     flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha se não couberem na largura */
     justify-content: center; /* Alinha os elementos horizontalmente no centro */
     align-items: center; /* Alinha os elementos verticalmente ao centro */
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-family:
 }

@@ -2,35 +2,7 @@ main{
     padding-left: 13.2%;
 }
 
-.retangulo{
-    width: 358px;
-    height: 241px;
-    border-radius: 15px;
-    background-color: #d9d9d9;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
-}
 
-.retangulo img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
-}
-
-.retangulo h2{
-    color: #000;
-    font-family: Gotham Black;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 5%;
-}
 
 #categoria_1{
     display: flex;
@@ -52,13 +24,6 @@ main{
     margin:0;
     z-index: 1;
 }
-
-#logo {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-}
-
 
 .container {
     display: flex;
