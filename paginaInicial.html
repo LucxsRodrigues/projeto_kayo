@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/modal.css">
     <link rel="stylesheet" href="src/css/slideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,21 +35,22 @@
         </nav>
     </header>
 
-        <section class="section"> <!--Gab-->
-            <div class="carrossel">
-                <div class="slide">
-                    <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 1">
-                </div>
-                <div class="slide">
-                    <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 2">
-                </div>
-                <div class="slide">
-                    <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 3">   
-                </div> 
-                <a class="carrossel-button prev" onclick="plusSlides(-1)">&#8249;</a>
-                <a class="carrossel-button next" onclick="plusSlides(1)">&#8250;</a>
+    <section class="section"> <!--Gab-->
+        <div class="carrossel">
+            <div class="slide">
+                <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 1">
             </div>
-        </section>
+            <div class="slide">
+                <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img id="imagem" src="src/img/slideshow1.png" alt="Imagem 3">
+            </div>
+            <a class="carrossel-button prev" onclick="plusSlides(-1)">&#8249;</a>
+            <a class="carrossel-button next" onclick="plusSlides(1)">&#8250;</a>
+        </div>
+            
+    </section>
 
     <!-- vídeo + 2 últimas notícias (Rangel)-->
     <section>
@@ -54,28 +58,65 @@
         <div class="container">
             <div class="video">
                 <h2 class="poiuy1">Matéria do nosso canal do YouTube:</h2><br><br>
-                <iframe width="470" height="270" src="https://www.youtube.com/embed/yEM8nqVuF80?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="470" height="270" src="https://www.youtube.com/embed/yEM8nqVuF80?rel=0&autoplay=1&loop=1"
+                    frameborder="0" allowfullscreen></iframe>
             </div>
     </section>
 
-            <!-- NOTICIA -->
-    <section>
+    <!-- NOTICIA 1 -->
+    <h2 class="economia">economia</h2>
+    
+    <section class="noticiasre">
 
-        <h2>NOTICIAS RECENTES</h2>
-        <div class="retangulo" id="openModalBtn">
-            <img src="src/img/image_not_1.png" alt="vaquinhas">
-            <h3>Vaquinhas morrendo por causa de Lula</h3>
+        <div class="not1-container">
+            <div class="retangulo" id="openModalBtn">
+                <img src="src/img/image_not_3.png" alt="vaquinhas">
+                <h3>um ladrão pensando</h3>
+            </div>
         </div>
-            <!-- MODAL -->
+        <!-- MODAL 1 -->
         <div class="modal" id="myModal">
             <div class="modal-content">
                 <span class="close" id="closeModalBtn">&times;</span>
-                <p>teste do modal aqui dentro</p>
-                <img src="src/img/image_not_1.png" alt="vaquinha">
+                <p>clicou pq quis, foi roubado</p>
+                <img class="lulinha" src="src/img/lulinha.webp" alt="vaquinha">
             </div>
         </div>
-        
+        <!-- NOTICIA 2 -->
+
+        <div class="not1-container">
+            <div class="retangulo" id="openModalBtn2">
+                <img src="src/img/image_not_3.png" alt="vaquinhas">
+                <h3>um ladrão pensando</h3>
+            </div>
+        </div>
+        <!-- MODAL2 -->
+        <div class="modal" id="myModal2">
+            <div class="modal-content">
+                <span class="close" id="closeModalBtn2">&times;</span>
+                <p>clicou pq quis, foi roubado</p>
+                <img class="lulinha" src="src/img/lulinha.webp" alt="vaquinha">
+            </div>
+        </div>
+
+        <!-- NOTICIA 3 -->
+
+        <div class="not1-container">
+            <div class="retangulo" id="openModalBtn3">
+                <img src="src/img/image_not_3.png" alt="vaquinhas">
+                <h3>um ladrão pensando</h3>
+            </div>
+        </div>
     </section>
+
+        <!-- MODAL3 -->
+        <div class="modal" id="myModal3">
+            <div class="modal-content">
+                <span class="close" id="closeModalBtn3">&times;</span>
+                <p>clicou pq quis, foi roubado</p>
+                <img class="lulinha" src="src/img/lulinha.webp" alt="vaquinha">
+            </div>
+        </div>
 
     <script src="src/js/modal.js"></script>
 
@@ -104,8 +145,8 @@
         </div>
         <div class="sobre">
             <ul>SOBRE A MANDACARU
-                <li><a href="sobre.html" >SOBRE A MANDACARU</a></li>
-                <li><a href="fale_conosco.html" >CONTATO</a></li>
+                <li><a href="sobre.html">SOBRE A MANDACARU</a></li>
+                <li><a href="fale_conosco.html">CONTATO</a></li>
                 <li><a href="fale_conosco.html">TRABALHE CONOSCO</a></li>
             </ul>
         </div>

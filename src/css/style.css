@@ -46,7 +46,7 @@ main{
 }
 
 .video {
-    padding: 10px;
+    padding: 0;
     /*Adiciona preenchimento de 10 pixels ao redor do elemento*/
 }
 
@@ -95,16 +95,6 @@ main{
     line-height: normal;
     /*Esta propriedade define a altura da linha, que é a distância vertical entre as linhas de texto.*/
     padding-left: 5%;
-}
-
-.poiuy1 {
-    color: #000;
-    font-family: Gotham;
-    font-size: 34px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0 0 0 0;
 }
 
 .poiuy2 {

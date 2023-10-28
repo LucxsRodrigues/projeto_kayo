@@ -1,11 +1,46 @@
+/* fonte bebinha */
+h2, 
+h2,
+h3, 
+h4, 
+h5{
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: regular;
+    font-weight: 100px;
+}
+
+.poiuy1 {
+    font-size: 34px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-bottom: -10px ;
+}
+
+.lulinha{
+    height: 100px;
+    width: 100px;
+}
+.noticiasre,
+.economia{
+    padding: 0 50px;
+    display: flex;
+}
+.economia{
+    padding-left: 100px
+}
+
+.not1-container{
+    padding: 0 50px;
+}
+
 .retangulo{
     width: 358px;
-    height: 241px;
+    height: 211px;
     background-color: #D9D9D9;
     border-radius: 15px;
     color: #000000;
     text-align: center;
     cursor: pointer;
+    padding-top: 15px;
 }
 
 .retangulo img {
