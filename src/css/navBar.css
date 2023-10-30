@@ -12,11 +12,12 @@ nav ul{
     align-items: center;
 }
 nav li{
+    font-family: 'Bebas Neue', sans-serif;
     list-style: none;
     display: inline-block;
     padding: 0 25px 0 30px;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #logo{

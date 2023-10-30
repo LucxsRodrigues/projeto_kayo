@@ -35,3 +35,23 @@ window.addEventListener("click", (event) => {
         modal2.style.display = "none";
     }
 });
+
+// MODAL 3
+
+const openModalBtn3 = document.getElementById("openModalBtn3");
+const closeModalBtn3 = document.getElementById("closeModalBtn3");
+const modal3 = document.getElementById("myModal3");
+
+openModalBtn3.addEventListener("click", () => {
+    modal3.style.display = "block";
+});
+
+closeModalBtn3.addEventListener("click", () => {
+    modal3.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+});
