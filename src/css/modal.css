@@ -53,7 +53,11 @@ h2{
     cursor: pointer;
     padding-top: 15px;
     overflow: hidden;
-    position: relative;
+    
+}
+
+p{
+    color: #666;
 }
 
 .retangulo img {
