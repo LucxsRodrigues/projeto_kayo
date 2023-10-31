@@ -9,10 +9,9 @@ footer hr { /* Isso aqui é a linha que divide o footer do body */
 
 footer ul {
     color: #53A63C;
-    font-family: Gotham;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     line-height: 40.705px
@@ -20,7 +19,7 @@ footer ul {
 
 footer li {
     color: #000;
-    font-family: Gotham;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
