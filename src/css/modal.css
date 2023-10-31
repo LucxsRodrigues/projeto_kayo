@@ -46,7 +46,8 @@ h2{
 .retangulo{
     width: 350px;
     height: auto;
-    background-color: #D9D9D9;
+    padding: auto;
+    background-color: #ccc;
     border-radius: 15px;
     color: #000000;
     text-align: center;
@@ -54,6 +55,16 @@ h2{
     padding-top: 15px;
     overflow: hidden;
     
+    
+}
+
+/* imagem cresce */
+
+.retangulo img:hover {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+
 }
 
 p{
