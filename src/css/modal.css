@@ -60,9 +60,8 @@ h2{
 
 /* imagem cresce */
 
-.retangulo img:hover {
-    width: 300px;
-    height: 200px;
+.retangulo:hover {
+    padding: 15px;
     transition: 0.5s;
 
 }
