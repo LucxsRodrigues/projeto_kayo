@@ -1,14 +1,14 @@
 /* fonte bebinha */
 h1,
-h3, 
-h4, 
-h5{
+h3,
+h4,
+h5 {
     font-family: 'Bebas Neue', sans-serif;
     font-style: regular;
 
 }
 
-h2{
+h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-style: regular;
     letter-spacing: 2px;
@@ -17,33 +17,94 @@ h2{
 
 .modal-content h4 {
     color: #017DC7;
+
+}
+
+/* noticia do lado do video */
+.de-ladin {
+    display: flex;
+    margin-top: 50px;
+    overflow: hidden;
+    
+    padding-bottom: 1px;
     
 }
+
+
+
+.not1{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 284px;
+    height: auto;
+    padding: 20px;
+    margin: 0 50px;
+    
+
+}
+
+.not2{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 284px;
+    height: 388px;
+    padding-top: 20px;
+    padding: 0 20px;
+    padding-bottom: 30px;
+    margin: 0 50px;
+    position: relative;
+}
+
+.not1 h2,.not2 h2  {
+    font-size: 25px;
+    line-height: 24px;
+}
+
+
+.not2 p, .not1 p {
+    font-family: verdana;
+    font-size: 15px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+
+}
+
+
+/*img colocada como classe para ser alinhada com text-align*/
+.not2 .img { 
+    text-align: center;
+    width: 250px;
+    height: 113px;
+}
+
+
 
 .poiuy1 {
     font-size: 34px;
     font-family: 'Bebas Neue', sans-serif;
-    padding-bottom: -10px ;
+    padding-bottom: -10px;
 }
 
-.lulinha{
+.lulinha {
     height: 100px;
     width: 100px;
 }
+
 .noticiasre,
-.economia{
+.economia {
     padding: 0 50px;
     display: flex;
 }
-.economia{
+
+.economia {
     padding-left: 100px
 }
 
-.not1-container{
+.not1-container {
     padding: 0 50px;
 }
 
-.retangulo{
+.retangulo {
     width: 350px;
     height: auto;
     padding: auto;
@@ -54,8 +115,8 @@ h2{
     cursor: pointer;
     padding-top: 15px;
     overflow: hidden;
-    
-    
+
+
 }
 
 /* imagem cresce */
@@ -66,7 +127,7 @@ h2{
 
 }
 
-p{
+p {
     color: #666;
 }
 
@@ -79,7 +140,7 @@ p{
     box-sizing: border-box;
 }
 
-.modal{
+.modal {
     display: none;
     position: fixed;
     top: 0;
@@ -99,7 +160,7 @@ p{
     position: relative;
 }
 
-.close{
+.close {
     position: absolute;
     top: 10px;
     right: 10px;
