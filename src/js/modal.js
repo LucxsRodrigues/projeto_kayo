@@ -1,3 +1,5 @@
+// MODAL 1
+
 const openModalBtn = document.getElementById("openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const modal = document.getElementById("myModal");
@@ -53,5 +55,137 @@ closeModalBtn3.addEventListener("click", () => {
 window.addEventListener("click", (event) => {
     if (event.target == modal3) {
         modal3.style.display = "none";
+    }
+});
+
+
+
+// LINHA 2
+
+
+
+// MODAL 4
+
+const openModalBtn4 = document.getElementById("openModalBtn4");
+const closeModalBtn4 = document.getElementById("closeModalBtn4");
+const modal4 = document.getElementById("myModal4");
+
+openModalBtn4.addEventListener("click", () => {
+    modal4.style.display = "block";
+});
+
+closeModalBtn4.addEventListener("click", () => {
+    modal4.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+});
+
+// MODAL 5
+
+const openModalBtn5 = document.getElementById("openModalBtn5");
+const closeModalBtn5 = document.getElementById("closeModalBtn5");
+const modal5 = document.getElementById("myModal5");
+
+openModalBtn5.addEventListener("click", () => {
+    modal5.style.display = "block";
+});
+
+closeModalBtn5.addEventListener("click", () => {
+    modal5.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+});
+
+// MODAL 6
+
+const openModalBtn6 = document.getElementById("openModalBtn6");
+const closeModalBtn6 = document.getElementById("closeModalBtn6");
+const modal6 = document.getElementById("myModal6");
+
+openModalBtn6.addEventListener("click", () => {
+    modal6.style.display = "block";
+});
+
+closeModalBtn6.addEventListener("click", () => {
+    modal6.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+});
+
+
+
+// NOTICIAS LINHA 3
+
+
+
+// MODAL 7
+
+const openModalBtn7 = document.getElementById("openModalBtn7");
+const closeModalBtn7 = document.getElementById("closeModalBtn7");
+const modal7 = document.getElementById("myModal7");
+
+openModalBtn7.addEventListener("click", () => {
+    modal7.style.display = "block";
+});
+
+closeModalBtn7.addEventListener("click", () => {
+    modal7.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+});
+
+// MODAL 8
+
+const openModalBtn8 = document.getElementById("openModalBtn8");
+const closeModalBtn8 = document.getElementById("closeModalBtn8");
+const modal8 = document.getElementById("myModal8");
+
+openModalBtn8.addEventListener("click", () => {
+    modal8.style.display = "block";
+});
+
+closeModalBtn8.addEventListener("click", () => {
+    modal8.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal8) {
+        modal8.style.display = "none";
+    }
+});
+
+// MODAL 8
+
+const openModalBtn9 = document.getElementById("openModalBtn9");
+const closeModalBtn9 = document.getElementById("closeModalBtn9");
+const modal9 = document.getElementById("myModal9");
+
+openModalBtn9.addEventListener("click", () => {
+    modal9.style.display = "block";
+});
+
+closeModalBtn9.addEventListener("click", () => {
+    modal9.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target == modal9) {
+        modal9.style.display = "none";
     }
 });

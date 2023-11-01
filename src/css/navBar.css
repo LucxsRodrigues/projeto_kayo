@@ -20,6 +20,21 @@ nav li{
     font-size: 35px;
 }
 
+nav li::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+nav li:hover::after{
+    width: 100%;
+}
+
 #logo{
     padding-left: 2%;
     padding-top: 5px;
