@@ -1,13 +1,7 @@
-@font-face {
-    font-family: BebasNeue;
-    src: url('src/fonts/BebasNeue-Regular.ttf') format('truetype');
-}
-
 .container_1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* Adicione outros estilos conforme necessário */
+    align-items: center;/* Adicione outros estilos conforme necessário */
 }
 
 .content {
@@ -21,9 +15,11 @@
 }
 
 img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+    max-width: 100%; /* não ultrapasse seu contêiner */
 }
 
 h1{
-    font-family: BebasNeue, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
 }
+

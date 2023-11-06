@@ -47,5 +47,9 @@ nav a{
     text-decoration: none;
     color: white;
     background-color: transparent;
-    font-family:
+}
+
+img{
+    width: 230px;
+    height: auto;
 }
