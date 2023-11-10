@@ -12,7 +12,9 @@ nav ul{
     align-items: center;
 }
 nav li{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
     list-style: none;
     display: inline-block;
     padding: 0 25px 0 30px;
@@ -49,7 +51,16 @@ nav a{
     background-color: transparent;
 }
 
-img{
+nav img{
     width: 230px;
     height: auto;
+}
+
+hr{
+    width: 1361.499px;
+    flex-shrink: 0;
+    border: none;
+    height: 3px;
+    background-color: #D4D4D4;
+    margin: 20px auto;
 }
