@@ -12,6 +12,7 @@
 .texto {
     flex: 1; /* Ocupa todo o espaço disponível no container */
     padding: 20px; /* Espaçamento entre o texto e a imagem */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
