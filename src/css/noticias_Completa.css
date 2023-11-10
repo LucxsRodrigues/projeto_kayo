@@ -1,7 +1,7 @@
 #not_Categoria{
     color: #017DC7;
     text-align: center;
-    font-family: Gotham;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
@@ -9,11 +9,12 @@
     padding-top: 3%;
 }
 body h1 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
+    text-transform: uppercase;
     line-height: normal;
     overflow-wrap: break-word;
     margin: 0 20% 0 20%;
@@ -22,7 +23,7 @@ body h1 {
 body h3 {
     color: #000;
     text-align: center;
-    font-family: Gotham;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
@@ -67,7 +68,6 @@ p{
 }
 
 .compartilhar-container{
-    
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin: 3% 23% 3%;
 }

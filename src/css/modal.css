@@ -1,18 +1,30 @@
-/* fonte bebinha */
-h1,
-h3,
-h4,
-h5 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: regular;
-
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: regular;
-    letter-spacing: 2px;
-    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 .modal-content h4 {
@@ -25,9 +37,7 @@ h2 {
     display: flex;
     margin-top: 50px;
     overflow: hidden;
-    
     padding-bottom: 1px;
-    
 }
 
 
@@ -39,8 +49,6 @@ h2 {
     height: auto;
     padding: 20px;
     margin: 0 50px;
-    
-
 }
 
 .not2{
@@ -62,7 +70,7 @@ h2 {
 
 
 .not2 p, .not1 p {
-    font-family: verdana;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 20px;
     text-overflow: ellipsis;
@@ -81,7 +89,8 @@ h2 {
 
 .poiuy1 {
     font-size: 34px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     padding-bottom: -10px;
 }
 
@@ -91,13 +100,15 @@ h2 {
 }
 
 .tema_1 {
+    font-size: 32px;
     margin: 30px 20% 15px 15%;
     display: flex;
 }
 
 .noticiasre{
-    margin: 0 20% 0 20%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tema_1 {
@@ -112,7 +123,7 @@ h2 {
     width: 350px;
     height: auto;
     padding: auto;
-    background-color: #ccc;
+    background-color: #D9D9D9;
     border-radius: 15px;
     color: #000000;
     text-align: center;
@@ -181,7 +192,7 @@ p {
     text-decoration: none;
     color: rgb(255, 255, 255);
     box-sizing: border-box;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
 }
 
@@ -192,4 +203,7 @@ p {
     height: 30px;
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
 }

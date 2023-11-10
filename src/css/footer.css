@@ -9,7 +9,8 @@ footer hr { /* Isso aqui é a linha que divide o footer do body */
 
 footer ul {
     color: #53A63C;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
     font-size: 15px;
     font-style: normal;
     line-height: normal;
@@ -19,24 +20,24 @@ footer ul {
 
 footer li {
     color: #000;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     line-height: 30.705px;
 }
 
 .siga{
-    display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
-    margin: 0 20px 30px ; /* Adiciona espaçamento entre as seções */
-    vertical-align: top; /* Alinha os elementos ao topo */
+    display: inline-block;
+    margin: 0 20px 30px ;
+    vertical-align: top; 
     box-sizing: border-box;
 }
 
 .sobre{
-    display: inline-block; /* Coloca as seções em linha uma ao lado da outra */
-    margin: 20px 30px ; /* Adiciona espaçamento entre as seções */
-    vertical-align: top; /* Alinha os elementos ao topo */
+    display: inline-block; 
+    margin: 20px 30px ; 
+    vertical-align: top; 
     box-sizing: border-box;
 }
 
@@ -49,12 +50,12 @@ footer li {
 }
 
 .footer-container{
-    max-width: 1361.499px; /* Largura máxima do rodapé */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: flex; /* Alinha os elementos horizontalmente */
-    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha se não couberem na largura */
-    justify-content: center; /* Alinha os elementos horizontalmente no centro */
-    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    max-width: 1361.499px;
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 footer a{
