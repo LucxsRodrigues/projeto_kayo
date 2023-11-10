@@ -1,7 +1,7 @@
 .content { /*Gab*/
     display: flex;
     justify-content: center;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
     margin-top: 50px;
     font-family: Gotham;
 }
@@ -9,6 +9,8 @@
 .contato {
     width: 100%;
     max-width: 500px;
+    position: relative;
+    right: 100px;
 }
 
 .form {
@@ -87,4 +89,23 @@ a {
     text-decoration: none;
     color: #000;
     font-weight: 100px;
+}
+ 
+/
+
+.mapBox{
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    position: relative;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 50px;
+    width: 600px;
+    height: 500px;
 }
