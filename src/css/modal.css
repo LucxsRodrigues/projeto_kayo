@@ -1,4 +1,4 @@
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     font-weight: 800;
@@ -17,12 +17,12 @@ h3 {
     font-weight: 800;
 }
 
-h4{
+h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
 }
 
-h5{
+h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
 }
@@ -42,7 +42,7 @@ h5{
 
 
 
-.not1{
+.not1 {
     border: 1px solid #ccc;
     border-radius: 20px;
     width: 284px;
@@ -51,7 +51,7 @@ h5{
     margin: 0 50px;
 }
 
-.not2{
+.not2 {
     border: 1px solid #ccc;
     border-radius: 20px;
     width: 284px;
@@ -59,17 +59,19 @@ h5{
     padding-top: 20px;
     padding: 0 20px;
     padding-bottom: 30px;
-    margin: 0 50px;
+    /* galegu: removi o margin: 0 50px; para alinhar o video */
     position: relative;
 }
 
-.not1 h2,.not2 h2  {
+.not1 h2,
+.not2 h2 {
     font-size: 25px;
     line-height: 24px;
 }
 
 
-.not2 p, .not1 p {
+.not2 p,
+.not1 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 20px;
@@ -79,12 +81,13 @@ h5{
 
 
 /*img colocada como classe para ser alinhada com text-align*/
-.not2 .img { 
+.not2 .img {
     text-align: center;
     width: 250px;
     height: 113px;
-    
+
 }
+
 .not2 img {
     border-radius: 10px;
 }
@@ -113,10 +116,10 @@ h5{
     max-width: 1150px;
     border-radius: 10px;
     border: 1px solid #a7a5a5;
-    
+
 }
 
-.noticiasre{
+.noticiasre {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +202,7 @@ p {
     cursor: pointer;
 }
 
-.modal-content a{
+.modal-content a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -207,8 +210,9 @@ p {
     letter-spacing: 3px;
 }
 
-.modal-content button{
-    background-color:#017DC7;;
+.modal-content button {
+    background-color: #017DC7;
+    ;
     border-radius: 15px;
     width: 100px;
     height: 30px;
