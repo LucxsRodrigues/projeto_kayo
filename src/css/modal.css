@@ -83,6 +83,10 @@ h5{
     text-align: center;
     width: 250px;
     height: 113px;
+    
+}
+.not2 img {
+    border-radius: 10px;
 }
 
 
@@ -101,8 +105,15 @@ h5{
 
 .tema_1 {
     font-size: 32px;
-    margin: 30px 20% 15px 15%;
-    display: flex;
+    margin: 0 auto;
+    background-color: #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1150px;
+    border-radius: 10px;
+    border: 1px solid #a7a5a5;
+    
 }
 
 .noticiasre{
