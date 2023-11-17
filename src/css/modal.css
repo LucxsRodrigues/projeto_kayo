@@ -119,15 +119,51 @@ h5 {
 
 }
 
+#FiltroStyle {  
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#FiltroStyle label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+#filtroProdutos {
+    font-size: 16px; 
+    padding: 8px; 
+    border: 1.5px solid #53A63C; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #465b52; 
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.3s; 
+}
+
+#filtroProdutos:focus {
+    border-color: #53A63C; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+#filtroProdutos option {
+    background-color: #fff; 
+    color: #465b52; 
+}
+
 .noticiasre {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* O mano Ranjas é burro, fez esse padding cagado e inutil 
 .tema_1 {
     padding-left: 100px
-}
+}*/
 
 .not1-container {
     padding: 0 50px;
